@@ -1,10 +1,10 @@
 import boto3
 
 # Initialize AWS clients
-medialive_client = boto3.client('medialive',region_name='your region name')
+medialive_client = boto3.client('medialive',region_name='eu-north-1')
 
 # Define the ARN of your MediaLive channel and MediaConnect flow
-medialive_channel_id = 'your channel id'
+medialive_channel_id = '5199999'
 
 
 # Function to check if the MediaLive channel is active
